@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code
+ which is considered copyrighted (c) material of the original comment or credit authors.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+/**
+ * xoalbum module for xoops
+ *
+ * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license         GPL 2.0 or later
+ * @package         xoalbum
+ * @since           2.0.0
+ * @author          XOOPS Development Team <name@site.com> - <http://xoops.org>
+ * @version         $Id: 2.10 style.css 11532 Mon 2014/04/28 11:10:05Z XOOPS Development Team $
+ */
+table {
+   margin: 0;
+}
+
+table.xoalbum {
+
+   padding: 2px;
+   border: 1px solid #ccc;
+}
+
+td.fields {
+   font: Verdana, Tahoma;
+   font-size: 12px;
+   font-weight: normal;
+}
+
+div.outer {
+   color: #555;
+   background-color: #eee;
+   border: 1px solid #ccc;
+}
+
+ul.fields > li {
+   display: inline;
+   list-style: none none;
+}
+
+/* about */
+#about label, #about text {
+    display: block;
+    float: left;
+    margin-bottom: 12px;
+}
+
+
+#about label {
+    text-align: right;
+    width: 200px;
+    padding-right: 20px;
+}
+
+    br {
+        clear: left;
+    }
+
+#about br {
+    clear: both;
+}
