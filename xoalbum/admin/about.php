@@ -22,5 +22,5 @@
 
 include 'admin_header.php';
 echo $adminMenu->addNavigation('about.php');
-echo $adminMenu->renderAbout('6KJ7RW5DR3VTJ', false);
+echo $adminMenu->renderAbout('xoopsfoundation@gmail.com', false);
 include 'admin_footer.php';

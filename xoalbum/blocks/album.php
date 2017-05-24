@@ -30,7 +30,7 @@ function b_xoalbum_album_show($options)
 {
     include_once dirname(dirname(__FILE__)) . '/class/album.php';
     $dirname = basename(dirname(dirname(__FILE__)));
-    $myts =& MyTextSanitizer::getInstance();
+    $myts = MyTextSanitizer::getInstance();
 
     $album = array();
     $type_block = $options[0];

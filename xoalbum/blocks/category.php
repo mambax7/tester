@@ -30,7 +30,7 @@ function b_xoalbum_category_show($options)
 {
     include_once dirname(dirname(__FILE__)) . '/class/category.php';
     $dirname = basename(dirname(dirname(__FILE__)));
-    $myts =& MyTextSanitizer::getInstance();
+    $myts = MyTextSanitizer::getInstance();
 
     $category = array();
     $type_block = $options[0];
